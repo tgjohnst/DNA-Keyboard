@@ -8,5 +8,5 @@ Parts
 - Pro Micro (or Elite-C v4) with pin headers ordered from [KeebIO](https://keeb.io/collections/diy-parts)
 - 10mm M2 spacers and screws
 - Keycaps - [R3 milk blanks](https://www.amazon.com/dp/B096Z2ZK2Y).
-- LEDs
+- LEDs - [3mm round flangeless dome-top LEDs (RGBY)](https://www.digikey.com/catalog/en/partgroup/3mm-t-1-round-with-domed-top-led-lamps/35724?mpart=OVLBB4C7)
 - Resistors (2) (TBD)
