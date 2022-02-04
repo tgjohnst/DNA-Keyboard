@@ -11,3 +11,4 @@ Parts
 - LEDs - [3mm round flangeless dome-top LEDs (RGBY)](https://www.digikey.com/catalog/en/partgroup/3mm-t-1-round-with-domed-top-led-lamps/35724?mpart=OVLBB4C7)
 - Resistors (2) (TBD, need to calculate based on LED datasheets)
 - MX Keyswitches - TBD
+- Silicong SKUF feet from KeebIO
