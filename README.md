@@ -8,7 +8,7 @@ Documentation for building a simple 4-key USB Keyboard that has ACGT to act as t
 
 The first build will be based on the [4Pack macropad](https://www.40percent.club/2017/07/4-pack.html)
 
-Parts
+###Parts
 - PCBs and plates - [4pack PCB](https://github.com/di0ib/Misc/tree/master/4pack) fabricated by [JLCPCB](https://www.40percent.club/2017/09/ordering-foobar-pcbs.html)
 - Pro Micro microUSB (or Elite-C v4 USB-C, will try both) controller with pin headers ordered from [KeebIO](https://keeb.io/collections/diy-parts)
 - 9mm M2 standoffs and 6mm M2 screws from [KeebIO](https://keeb.io/collections/diy-parts)
@@ -18,8 +18,7 @@ Parts
 - Gateron KS-9 Red MX Keyswitches
 - White silicone SKUF feet from [KeebIO](https://keeb.io/collections/diy-parts)
 - microUSB / USBC cable
-
-Tools
+###Tools
 - Soldering iron + Solder + Solder wick + Third hand + Ventilation
 - [Aluminum keyswitch splitter](https://www.amazon.com/gp/product/B08M9QKBFG)
 - 
