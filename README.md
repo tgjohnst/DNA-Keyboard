@@ -18,6 +18,7 @@ Parts
 - Gateron KS-9 Red MX Keyswitches
 - White silicone SKUF feet from [KeebIO](https://keeb.io/collections/diy-parts)
 - microUSB / USBC cable
+
 Tools
 - Soldering iron + Solder + Solder wick + Third hand + Ventilation
 - [Aluminum keyswitch splitter](https://www.amazon.com/gp/product/B08M9QKBFG)
