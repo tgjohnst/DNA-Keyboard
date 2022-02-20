@@ -20,4 +20,40 @@ The first build will be based on the [4Pack macropad](https://www.40percent.club
 - microUSB / USBC cable
 ### Tools
 - Soldering iron + Solder + Solder wick + Third hand + Ventilation
-- 
+
+
+## Firmware
+### Installing QMK
+Install QMK (using conda within WSL, because I prefer a unix environment)
+```
+conda create -n qmk python=3
+conda activate qmk
+pip install qmk
+qmk setup # Answer y to prompts
+```
+### Compiling the firmware
+```
+qmk compile -kb 40percentclub/4pack
+qmk config user.keyboard=40percentclub/4pack
+qmk config user.keymap=tgjohnst
+qmk new-keymap
+```
+### Changing the Keymap
+Edit the created keymap.c (to open `/home/lotus/qmk_firmware/keyboards/40percentclub/4pack/keymaps/tgjohnst` in explorer just cd there and do `explorer.exe .`) in a text editor. Change the layout to:
+```
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+    [0] = LAYOUT( /* Base */
+        KC_T, KC_G, KC_C, KC_A
+    ),
+};
+```
+Then, compile the new keymap (assuming the defaults were set with `qmk config` above
+```
+qmk compile
+```
+### Flashing the firmware
+You cannot flash directly from WSL, so install QMK Toolbox https://github.com/qmk/qmk_toolbox .
+
+Load up QMK toolbox and select the .hex file you created in the last compile step. Select `Auto-Flash`.
+
+Connect your keyboard to a **USB 2.0** port (3.0 has issues). short out the ground and reset pin twice in quick succession to initiate a reset. QMK toolbox should detect the device and start flashing.
