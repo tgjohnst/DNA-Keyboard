@@ -1,8 +1,10 @@
 # DNA-Keyboard
 Documentation for building a simple 4-key USB Keyboard that has ACGT to act as the equivalent of a tenkey for bioinformatics
 
-## Rationale
 
+![Keyboard](keyb.jpg)
+## Rationale
+DNA Sequence entry is a pretty common task when dealing with informatic stuff. The letters CGT all use the same finger on a QWERTY layout, which makes them slower to type in sequence. What if we had a keyboard to do just that?
 
 ## Parts
 
